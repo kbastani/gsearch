@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "gSearch.Core", "gSearch.Core\gSearch.Core.csproj", "{DFD1C673-7EA6-4E07-BE5B-7BF148B26757}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "gSearch.Core.Tests", "gSearch.Core.Tests\gSearch.Core.Tests.csproj", "{9E51D5DD-F3B6-4AB0-9D03-45D497D76B73}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DFD1C673-7EA6-4E07-BE5B-7BF148B26757}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DFD1C673-7EA6-4E07-BE5B-7BF148B26757}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DFD1C673-7EA6-4E07-BE5B-7BF148B26757}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DFD1C673-7EA6-4E07-BE5B-7BF148B26757}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9E51D5DD-F3B6-4AB0-9D03-45D497D76B73}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9E51D5DD-F3B6-4AB0-9D03-45D497D76B73}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9E51D5DD-F3B6-4AB0-9D03-45D497D76B73}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9E51D5DD-F3B6-4AB0-9D03-45D497D76B73}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
