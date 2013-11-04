@@ -109,17 +109,13 @@
     </Otherwise>
   </Choose>
   <ItemGroup>
-    <Compile Include="TimeScaleVertexTest.cs" />
+    <Compile Include="Graph\Services\Time\TimeScaleVertexTest.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\gSearch.Core\gSearch.Core.csproj">
       <Project>{F0C06C8F-A872-4398-A210-222C667A8212}</Project>
       <Name>gSearch.Core</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\gSearch.OpenAuthentication\gSearch.OpenAuth.csproj">
-      <Project>{B2A502F1-68E3-41CF-854D-DEDCF9BD2151}</Project>
-      <Name>gSearch.OpenAuth</Name>
     </ProjectReference>
   </ItemGroup>
   <Choose>

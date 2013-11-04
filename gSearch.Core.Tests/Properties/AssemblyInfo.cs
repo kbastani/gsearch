@@ -5,12 +5,12 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("Arktera.Core.Tests")]
-[assembly: AssemblyDescription("")]
+[assembly: AssemblyTitle("gSearch.Core.Tests")]
+[assembly: AssemblyDescription("Unit tests for gSearch.Core")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("Arktera.Core.Tests")]
-[assembly: AssemblyCopyright("Copyright ©  2013")]
+[assembly: AssemblyCompany("Neo Technology, Inc.")]
+[assembly: AssemblyProduct("gSearch.Core.Tests")]
+[assembly: AssemblyCopyright("Copyright Neo Technology © 2013")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 

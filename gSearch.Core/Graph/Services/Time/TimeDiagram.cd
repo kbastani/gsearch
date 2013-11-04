@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="gSearch.Core.Graph.Services.Time.TimeScale">
+    <Position X="3.25" Y="1.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAgAAAAACAAAAAAAAEAAAEAAAAAAAAAA=</HashCode>
+      <FileName>Graph\Services\Time\Implementations\TimeScale.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="gSearch.Core.Graph.Services.Time.TimeScaleNode" BaseTypeListCollapsed="true">
+    <Position X="5.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAACIAAAAAAACAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Graph\Services\Time\Implementations\TimeScaleNode.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="gSearch.Core.Graph.Services.Time.TimeScaleRelationship" BaseTypeListCollapsed="true">
+    <Position X="7.25" Y="1.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAQAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Graph\Services\Time\Implementations\TimeScaleRelationship.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="gSearch.Core.Graph.Services.Time.TimeScaleVertex">
+    <Position X="0.5" Y="4.5" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgAAAAAAABAAAAAAAAAAAAABAAAAAAAAAAEAIAAAA=</HashCode>
+      <FileName>Graph\Services\Time\Implementations\TimeScaleVertex.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="gSearch.Core.Graph.Services.Time.TimeScaleVertexTraversal">
+    <Position X="0.5" Y="1.75" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAQAA=</HashCode>
+      <FileName>Graph\Services\Time\Implementations\TimeScaleVertexTraversal.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="System.Object" Collapsed="true">
+    <Position X="4.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Interface Name="gSearch.Core.Graph.Services.Time.Interfaces.ITimeScaleNode">
+    <Position X="3.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Graph\Services\Time\Interfaces\ITimeScaleNode.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="gSearch.Core.Graph.Services.Time.Interfaces.ITimeScaleRelationship">
+    <Position X="5" Y="4.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAQAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Graph\Services\Time\Interfaces\ITimeScaleRelationship.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="gSearch.Core.Graph.Services.Time.Interfaces.ITimeScaleVertex">
+    <Position X="3.25" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAA=</HashCode>
+      <FileName>Graph\Services\Time\Interfaces\ITimeScaleVertex.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="gSearch.Core.Graph.Services.Time.Interfaces.ITimeScaleVertexTraversal">
+    <Position X="5" Y="6" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAA=</HashCode>
+      <FileName>Graph\Services\Time\Interfaces\ITimeScaleVertexTraversal.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

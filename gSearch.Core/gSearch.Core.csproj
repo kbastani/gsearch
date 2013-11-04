@@ -39,6 +39,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Graph\Services\Time\Implementations\TimeScaleNode.cs" />
+    <Compile Include="Graph\Services\Time\Implementations\TimeScaleRelationship.cs" />
+    <Compile Include="Graph\Services\Time\Implementations\TimeScaleVertexTraversal.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Graph\Services\Time\Implementations\TimeScale.cs" />
     <Compile Include="Graph\Services\Time\Implementations\TimeScaleVertex.cs" />
@@ -46,6 +49,9 @@
     <Compile Include="Graph\Services\Time\Interfaces\ITimeScaleRelationship.cs" />
     <Compile Include="Graph\Services\Time\Interfaces\ITimeScaleVertex.cs" />
     <Compile Include="Graph\Services\Time\Interfaces\ITimeScaleVertexTraversal.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Graph\Services\Time\TimeDiagram.cd" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

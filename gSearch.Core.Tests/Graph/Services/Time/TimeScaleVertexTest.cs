@@ -117,9 +117,9 @@ namespace gSearch.Core.Tests
                 new TimeScaleVertex(
                     new List<ITimeScaleNode>() 
                     { 
-                        new GenericTimeScaleNode() { NodeId = 0, Bit = 0, Interval = 50 } as ITimeScaleNode, 
-                        new GenericTimeScaleNode() { NodeId = 1, Bit = 0, Interval = 50 } as ITimeScaleNode, 
-                        new GenericTimeScaleNode() { NodeId = 2, Bit = 1, Interval = 50 } as ITimeScaleNode 
+                        new TimeScaleNode() { NodeId = 0, Bit = 0, Interval = 50 } as ITimeScaleNode, 
+                        new TimeScaleNode() { NodeId = 1, Bit = 0, Interval = 50 } as ITimeScaleNode, 
+                        new TimeScaleNode() { NodeId = 2, Bit = 1, Interval = 50 } as ITimeScaleNode 
                     },
                     timeScaleTest.GlobalCallback()
                 ));
@@ -131,9 +131,9 @@ namespace gSearch.Core.Tests
                 new TimeScaleVertex(
                     new List<ITimeScaleNode>() 
                     { 
-                        new GenericTimeScaleNode() { NodeId = 3, Bit = 0, Interval = 50 } as ITimeScaleNode, 
-                        new GenericTimeScaleNode() { NodeId = 4, Bit = 0, Interval = 50 } as ITimeScaleNode, 
-                        new GenericTimeScaleNode() { NodeId = 5, Bit = 1, Interval = 50 } as ITimeScaleNode 
+                        new TimeScaleNode() { NodeId = 3, Bit = 0, Interval = 50 } as ITimeScaleNode, 
+                        new TimeScaleNode() { NodeId = 4, Bit = 0, Interval = 50 } as ITimeScaleNode, 
+                        new TimeScaleNode() { NodeId = 5, Bit = 1, Interval = 50 } as ITimeScaleNode 
                     },
                     timeScaleTest.GlobalCallback()
                 ));
@@ -145,9 +145,9 @@ namespace gSearch.Core.Tests
                 new TimeScaleVertex(
                     new List<ITimeScaleNode>() 
                     { 
-                        new GenericTimeScaleNode() { NodeId = 6, Bit = 0, Interval = 50 } as ITimeScaleNode, 
-                        new GenericTimeScaleNode() { NodeId = 7, Bit = 0, Interval = 50 } as ITimeScaleNode, 
-                        new GenericTimeScaleNode() { NodeId = 8, Bit = 1, Interval = 50 } as ITimeScaleNode 
+                        new TimeScaleNode() { NodeId = 6, Bit = 0, Interval = 50 } as ITimeScaleNode, 
+                        new TimeScaleNode() { NodeId = 7, Bit = 0, Interval = 50 } as ITimeScaleNode, 
+                        new TimeScaleNode() { NodeId = 8, Bit = 1, Interval = 50 } as ITimeScaleNode 
                     },
                     timeScaleTest.GlobalCallback()
                 ));
@@ -170,9 +170,9 @@ namespace gSearch.Core.Tests
                 new TimeScaleVertex(
                     new List<ITimeScaleNode>() 
                     { 
-                        new GenericTimeScaleNode() { NodeId = 0, Bit = 0, Interval = 50 } as ITimeScaleNode, 
-                        new GenericTimeScaleNode() { NodeId = 1, Bit = 0, Interval = 50 } as ITimeScaleNode, 
-                        new GenericTimeScaleNode() { NodeId = 2, Bit = 1, Interval = 50 } as ITimeScaleNode 
+                        new TimeScaleNode() { NodeId = 0, Bit = 0, Interval = 50 } as ITimeScaleNode, 
+                        new TimeScaleNode() { NodeId = 1, Bit = 0, Interval = 50 } as ITimeScaleNode, 
+                        new TimeScaleNode() { NodeId = 2, Bit = 1, Interval = 50 } as ITimeScaleNode 
                     },
                     new List<ITimeScaleRelationship>()
                     {
@@ -193,9 +193,9 @@ namespace gSearch.Core.Tests
                 new TimeScaleVertex(
                     new List<ITimeScaleNode>() 
                     { 
-                        new GenericTimeScaleNode() { NodeId = 3, Bit = 0, Interval = 50 } as ITimeScaleNode, 
-                        new GenericTimeScaleNode() { NodeId = 4, Bit = 0, Interval = 50 } as ITimeScaleNode, 
-                        new GenericTimeScaleNode() { NodeId = 5, Bit = 1, Interval = 50 } as ITimeScaleNode 
+                        new TimeScaleNode() { NodeId = 3, Bit = 0, Interval = 50 } as ITimeScaleNode, 
+                        new TimeScaleNode() { NodeId = 4, Bit = 0, Interval = 50 } as ITimeScaleNode, 
+                        new TimeScaleNode() { NodeId = 5, Bit = 1, Interval = 50 } as ITimeScaleNode 
                     },
                     new List<ITimeScaleRelationship>()
                     {
@@ -213,9 +213,9 @@ namespace gSearch.Core.Tests
                 new TimeScaleVertex(
                     new List<ITimeScaleNode>() 
                     { 
-                        new GenericTimeScaleNode() { NodeId = 6, Bit = 0, Interval = 50 } as ITimeScaleNode, 
-                        new GenericTimeScaleNode() { NodeId = 7, Bit = 0, Interval = 50 } as ITimeScaleNode, 
-                        new GenericTimeScaleNode() { NodeId = 8, Bit = 1, Interval = 50 } as ITimeScaleNode 
+                        new TimeScaleNode() { NodeId = 6, Bit = 0, Interval = 50 } as ITimeScaleNode, 
+                        new TimeScaleNode() { NodeId = 7, Bit = 0, Interval = 50 } as ITimeScaleNode, 
+                        new TimeScaleNode() { NodeId = 8, Bit = 1, Interval = 50 } as ITimeScaleNode 
                     },
                     new List<ITimeScaleRelationship>()
                     {
@@ -237,15 +237,15 @@ namespace gSearch.Core.Tests
         {
             TimeScale timeScale = new TimeScale();
 
-            Func<ITimeScaleRelationship, List<ITimeScaleVertex>> callback = timeScale.GlobalCallback(); // TODO: Initialize to an appropriate value
+            Func<ITimeScaleRelationship, List<ITimeScaleVertex>> callback = timeScale.GlobalCallback();
 
-            TimeScaleVertex target = new TimeScaleVertex(callback); // TODO: Initialize to an appropriate value
+            TimeScaleVertex target = new TimeScaleVertex(callback); 
 
             List<ITimeScaleNode> nodes = new List<ITimeScaleNode>() 
                     { 
-                        new GenericTimeScaleNode() { NodeId = 0, Bit = 0, Interval = 50 } as ITimeScaleNode, 
-                        new GenericTimeScaleNode() { NodeId = 1, Bit = 0, Interval = 50 } as ITimeScaleNode, 
-                        new GenericTimeScaleNode() { NodeId = 2, Bit = 1, Interval = 50 } as ITimeScaleNode 
+                        new TimeScaleNode() { NodeId = 0, Bit = 0, Interval = 50 } as ITimeScaleNode, 
+                        new TimeScaleNode() { NodeId = 1, Bit = 0, Interval = 50 } as ITimeScaleNode, 
+                        new TimeScaleNode() { NodeId = 2, Bit = 1, Interval = 50 } as ITimeScaleNode 
                     };
 
             List<ITimeScaleRelationship> relationships = new List<ITimeScaleRelationship>()
@@ -255,7 +255,7 @@ namespace gSearch.Core.Tests
                         new TimeScaleRelationship() { StartId = 1, EndId = 3 } as ITimeScaleRelationship,
                     };
 
-            Func<ITimeScaleRelationship, List<ITimeScaleVertex>> callback1 = target.TimeScaleCallback; // TODO: Initialize to an appropriate value
+            Func<ITimeScaleRelationship, List<ITimeScaleVertex>> callback1 = target.Callback; 
             target.InitializeTimeScaleInstance(nodes, relationships, callback1);
 
             Assert.IsNotNull(target);

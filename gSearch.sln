@@ -5,6 +5,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "gSearch.Core", "gSearch.Cor
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "gSearch.Core.Tests", "gSearch.Core.Tests\gSearch.Core.Tests.csproj", "{9E51D5DD-F3B6-4AB0-9D03-45D497D76B73}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{7D55063E-F15E-4876-9BFC-708537C12C6A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{BF5CAD50-4A7B-4B3B-9975-04C72E382562}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -22,5 +26,10 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{DFD1C673-7EA6-4E07-BE5B-7BF148B26757} = {7D55063E-F15E-4876-9BFC-708537C12C6A}
+		{BF5CAD50-4A7B-4B3B-9975-04C72E382562} = {7D55063E-F15E-4876-9BFC-708537C12C6A}
+		{9E51D5DD-F3B6-4AB0-9D03-45D497D76B73} = {BF5CAD50-4A7B-4B3B-9975-04C72E382562}
 	EndGlobalSection
 EndGlobal
