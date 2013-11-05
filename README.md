@@ -26,6 +26,8 @@ gSearch allows you to painlessly perform causal analysis of temporally modeled e
 
 #### Definition
 
+ ***
+
 [Causality](http://en.wikipedia.org/wiki/Causality) (also referred to as causation) is the relation between an event (the cause) and a second event (the effect), where the second event is understood as a consequence of the first.
 
 #### Theory
@@ -37,6 +39,8 @@ Observations are made, captured, from a perspective of a position in time and sp
 A graph database provides you a means to model space and see information from the perspective of a point relative to other points. Those points can represent a condition or state of the world.
 
 #### Example
+
+ ***
 
 Consider the example below.
 
@@ -51,11 +55,15 @@ Each point on the graph is from the perspective of a person relative to meeting 
 
 #### Problem
 
+ ***
+
 The need to model these abstract representations of interactions between objects in a temporal sense, ordered chronologically, requires database management solutions that are complex and contextually diverse.
 
 ![Event_Interaction_Model](https://raw.github.com/kbastani/gists/master/meta/TSEMM-Temporal-Binding.png)
 
 #### Solution
+
+ ***
 
 gSearch exposes an API for handling data management operations purposed to performantly manage read and write operations for creating and maintaining a causal graph in your Neo4j graph database.
 
