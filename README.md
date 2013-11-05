@@ -22,7 +22,7 @@ TODO
 
 ### Causality
 
-gSearch allows you to perform causal analysis of interactions that is contextually independent of your use case.
+gSearch allows you to painlessly perform causal analysis of temporally modeled events.
 
 #### Definition
 
