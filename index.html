@@ -34,6 +34,68 @@
 <p>gSearch is a graph search engine architecture that integrates with a Neo4j graph database. The core libraries of gSearch contain a collection of graph management services for recording and analyzing complex dynamical systems of temporally modeled interactions.</p>
 
 <p><img src="https://raw.github.com/kbastani/gsearch/master/Images/gsearch-logo-thumb-200x200.PNG" alt="gSearch"></p>
+
+<h2>
+<a name="what-problems-does-gsearch-solve" class="anchor" href="#what-problems-does-gsearch-solve"><span class="octicon octicon-link"></span></a>What problems does gSearch solve?</h2>
+
+<p>gSearch is meant to solve specific problems in the field of information retrieval and search.</p>
+
+<h3>
+<a name="filter" class="anchor" href="#filter"><span class="octicon octicon-link"></span></a>Filter</h3>
+
+<p>TODO</p>
+
+<h3>
+<a name="search" class="anchor" href="#search"><span class="octicon octicon-link"></span></a>Search</h3>
+
+<p>TODO</p>
+
+<h3>
+<a name="recommendation" class="anchor" href="#recommendation"><span class="octicon octicon-link"></span></a>Recommendation</h3>
+
+<p>TODO</p>
+
+<h3>
+<a name="causality" class="anchor" href="#causality"><span class="octicon octicon-link"></span></a>Causality</h3>
+
+<p>gSearch allows you to perform causal analysis of interactions that is contextually independent of your use case.</p>
+
+<h4>
+<a name="definition" class="anchor" href="#definition"><span class="octicon octicon-link"></span></a>Definition</h4>
+
+<p><img src="en.wikipedia.org/wiki/Causality" alt="Causality"> (also referred to as causation) is the relation between an event (the cause) and a second event (the effect), where the second event is understood as a consequence of the first.</p>
+
+<h4>
+<a name="theory" class="anchor" href="#theory"><span class="octicon octicon-link"></span></a>Theory</h4>
+
+<p>Observations are made, captured, from a perspective of a position in time and space. A graph is a model of that space.</p>
+
+<p>A graph database provides you a means to model space and see information from the perspective of a point relative to other points. Those points can represent a condition or state of the world.</p>
+
+<h4>
+<a name="example" class="anchor" href="#example"><span class="octicon octicon-link"></span></a>Example</h4>
+
+<p>Consider the example below.</p>
+
+<ul>
+<li>Pam met Sally.</li>
+<li>John met Sally.</li>
+<li>Sally met Anne.</li>
+<li>Anne met Pam.</li>
+</ul><p>Each point on the graph is from the perspective of a person relative to meeting other people.
+<img src="https://raw.github.com/kbastani/gists/master/meta/event-model-1.png" alt="Event_Model"></p>
+
+<h4>
+<a name="problem" class="anchor" href="#problem"><span class="octicon octicon-link"></span></a>Problem</h4>
+
+<p>The need to model these abstract representations of interactions between objects in a temporal sense, ordered chronologically, requires database management solutions that are complex and contextually diverse.</p>
+
+<p><img src="https://raw.github.com/kbastani/gists/master/meta/TSEMM-Temporal-Binding.png" alt="Event_Interaction_Model"></p>
+
+<h4>
+<a name="solution" class="anchor" href="#solution"><span class="octicon octicon-link"></span></a>Solution</h4>
+
+<p>gSearch exposes an API for handling data management operations purposed to performantly create and maintain real-time persistency in your Neo4j graph database.</p>
         </section>
 
         <aside id="sidebar">
