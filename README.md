@@ -54,6 +54,6 @@ The need to model these abstract representations of interactions between objects
 
 #### Solution
 
-gSearch exposes an API for handling data management operations purposed to performantly create and maintain real-time persistency in your Neo4j graph database.
+gSearch exposes an API for handling data management operations purposed to performantly manage read and write operations for creating and maintaing a causal graph in your Neo4j graph database.
 
 
