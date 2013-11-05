@@ -10,29 +10,37 @@ gSearch is meant to solve specific problems in the field of information retrieva
 
 ### Filter
 
+ ***
+
 TODO
 
 ### Search
+
+ ***
 
 TODO
 
 ### Recommendation
 
+ ***
+
 TODO
 
 ### Causality
+
+ ***
 
 gSearch allows you to painlessly perform causal analysis of temporally modeled events.
 
 #### Definition
 
- ***
+ ****
 
 [Causality](http://en.wikipedia.org/wiki/Causality) (also referred to as causation) is the relation between an event (the cause) and a second event (the effect), where the second event is understood as a consequence of the first.
 
 #### Theory
 
- ***
+ ****
  
 Observations are made, captured, from a perspective of a position in time and space. A graph is a model of that space.
 
@@ -40,7 +48,7 @@ A graph database provides you a means to model space and see information from th
 
 #### Example
 
- ***
+ ****
 
 Consider the example below.
 
@@ -55,7 +63,7 @@ Each point on the graph is from the perspective of a person relative to meeting 
 
 #### Problem
 
- ***
+ ****
 
 The need to model these abstract representations of interactions between objects in a temporal sense, ordered chronologically, requires database management solutions that are complex and contextually diverse.
 
@@ -63,7 +71,7 @@ The need to model these abstract representations of interactions between objects
 
 #### Solution
 
- ***
+ ****
 
 gSearch exposes an API for handling data management operations purposed to performantly manage read and write operations for creating and maintaining a causal graph in your Neo4j graph database.
 
